@@ -1,6 +1,11 @@
-# Full Stack Camp is 4 month intensive bootcamp program.
+## Full Stack Camp is 4 month intensive bootcamp program.
 
-Table Of Content
+Learn more about the program here, [Link](#)
+---
+
+
+**Table Of Content**
+
 
 1.  [Web Fundamentals ](#1-web-fundamentals)
 
@@ -14,8 +19,6 @@ Table Of Content
 
 2.  [HTML/CSS](#2-html-css)
     
-    - 
-
 
 3. [Javascript](#)
     
@@ -39,6 +42,3 @@ Table Of Content
     - [Github Profile Building](#)
     - [Twitter](#)
     
-
-
-# Week 1
