@@ -96,5 +96,47 @@ RESULT :
 
 ```
 
-### 7. Write  
+### 7. Write a JS  program to remove duplicate items from an array.
+
+```
+Test Case #1
+-------------
+
+Input : [1, 4, 5, 30, 2, 22, 22, 30];
+Output :  [1, 4, 5, 30, 2, 22];
+
+
+Test Case #2
+-------------
+Input : ['frontbench', 'FRontbench', 'web', 5, true, false, 'WEB'];
+Output :  ['frontbench', 'web', 5, true, false];
+
+```
+
+### 8. Write a JavaScript function to sort the following array of objects by title value and id ( ascending order)
+
+```
+Test Data
+------------
+
+var library = [ 
+   { author: 'Bill Gates', title: 'The Road Ahead', id: 1254},
+   { author: 'Steve Jobs', title: 'Walter Isaacson', id: 4264},
+   { author: 'Suzanne Collins', title: 'Mockingjay: The Hunger Games', id: 3245}
+   ];
+
+```
+
+### 9. Write a JavaScript function to find an array contains a specific element.
+
+```
+Test data :
+-------------
+arr = [2, 5, 9, 6];
+
+yourFunctionName(arr, 5);
+
+[True]
+
+```
 
