@@ -15,4 +15,14 @@ Note - array.push() is a in-built function here.
  */
 
  // Write your solution
- 
+ Soln:-
+  //Using in-built function :
+  Arr.push(900);
+for( var i = 0; i < Arr.length; i++){
+ if ( Arr[i] === 3) { 
+  Arr.splice(i, 1); 
+ }
+}
+
+//without using in-built function :
+Arr[Arr.length] = '900'; 
