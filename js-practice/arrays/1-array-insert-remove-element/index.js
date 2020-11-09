@@ -14,5 +14,22 @@ Note - array.push() is a in-built function here.
  * 
  */
 
- // Write your solution
- 
+// Write your solution
+function add(arr, n);
+{
+    arr.push(n);
+    arr[arr.length] = n;
+    return arr;
+}
+
+
+//Remove an Element from specific location in array;
+
+function remove(arr, num) {
+    let removeEle = arr.indexof(num);
+    delete num;
+}
+
+
+
+
