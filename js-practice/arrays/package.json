@@ -1,0 +1,17 @@
+{
+  "name": "arrays",
+  "version": "1.0.0",
+  "description": "Pracice JS questions related to arrays and write test cases with Jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Prem",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.12.1",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3"
+  }
+}
