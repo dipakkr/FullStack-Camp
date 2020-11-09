@@ -1,0 +1,127 @@
+// bake your code here
+var arr=[1, 5, 3, 89, 34, 54];
+
+//WAP to Insert and Remove an element to array. Using in-built functions and without using any in-built function.
+function add(arr,num){
+    //with built in 
+   arr.push(num);
+    //without built in
+   arr[arr.length]=num;
+
+   return arr;
+}
+
+
+//1. Remove element from specific location in array.
+function remove(arr,num){
+    var index= arr.indexOf(num);
+    if(index>-1)
+      arr.splice(index,num);
+    return arr;
+}
+
+
+//7. Write a JavaScript function to find an array contains a specific element.
+function search(arr,num){
+    for(var i=0;i<arr.length;i++){
+        if(arr[i]==num)
+          return true;
+    }
+    
+    return false;
+}
+
+
+//2. Write a JavaScript function to get the last element of an array. 
+//Passing a parameter 'n' will return the last 'n' elements of the array
+function getlastelement(arr,n){
+    if(n==1)
+      return arr[arr.length-1];
+    var newarr = arr.slice(arr.length-n,n);
+    return newarr;
+}
+
+
+//3. Write a to function that join all elements of the following array into a string.
+function join_elements_of_array(arr){
+    var s="";
+    for(var i=0;i<arr.length;i++)
+      s+=arr[i];
+    return s;
+}
+
+
+//4. Write a JS Program to write following data.
+function display_the_colors(color_list,arr){
+    var s=[];
+    for(var i=0;i<color_list;i++){
+        var ss=(i+1)+color_list[i]+" choice is "+arr[i]+" .";
+        s.push(ss);
+    }
+    
+    return s;
+}
+
+
+//5. Write a JS program to remove duplicate items from an array.
+funcion remove_duplicate_items(arr){
+    for(var i=0;i<arr.length;i++){
+        for(var j=i+1;j<arr.length;j++){
+            if(arr[i]==arr[j])
+              arr.splice(j,1);
+        }
+    }
+    
+    return arr;
+}
+
+
+//6. Write a JavaScript function to sort the following array of objects by
+// title value and id ( ascending order)
+function compare(a,b){
+    if(a["author"]==b["author"])
+      return a["id"]<b["id"];
+    return a["author"]<b["author"];
+}
+function sort_array_of_objects(arr){
+    arr.sort(compare);
+    return arr;
+}
+
+//1. Reverse a array
+function reverse_array(arr){
+    var n=arr.length;
+    for(var i=0;i<n/2;i++){
+        var temp=arr[i];
+        arr[i]=arr[n-i-1];
+        arr[n-i-1]=temp;
+    }
+    return arr;
+}
+
+
+//2. Reverse a string
+function reverse_String(str){
+    var s1=str.split("");
+    var arr=s1.reverse();
+    var join_array=arr.join("");
+    return join_array;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
